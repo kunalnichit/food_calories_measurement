@@ -1,16 +1,18 @@
 # 🧠 Gemini Health App
 
-The **Gemini Health App** is a simple health management tool that uses Google’s Gemini Vision model to analyze food images and estimate their protein content. It provides a breakdown of each food item along with its protein content and nutritional insights.
+A simple AI-powered nutrition analysis app built with **Streamlit** and Google's **Gemini Vision API**.
+
+Upload a food image, and the app estimates **total protein** and provides a nutritional breakdown.
 
 ---
 
 ## 🚀 Features
 
-- Upload food images and get nutritional analysis
-- Calculates total protein content from the food items
-- Gives a nutritional breakdown including carbs, fats, fiber, sugar, and more
-- Uses Google Gemini Vision (`gemini-1.5-flash`) via the Generative AI API
-- Interactive UI built with Streamlit
+- 📷 Upload food images (jpg, png, jpeg, jfif)
+- 🔍 Analyze food and calculate protein content
+- 📊 Nutritional summary (carbs, fats, sugar, etc.)
+- 🤖 Powered by `gemini-1.5-flash` from Google
+- ⚡ Simple Streamlit UI
 
 ---
 
@@ -21,6 +23,11 @@ The **Gemini Health App** is a simple health management tool that uses Google’
 ```bash
 git clone https://github.com/your-username/gemini-health-app.git
 cd gemini-health-app
+
+## 📦 Requirements
+
+```bash
+pip install -r requirements.txt
 
 ## Files Overview
 File | Purpose
